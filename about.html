@@ -6,8 +6,8 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-        <meta name="description" content="This is the description" />
-        <link rel="stylesheet" href="./styles.css">
+		<meta name="description" content="This is the description" />
+		<link rel="stylesheet" href="./styles.css" />
 		<title>The Beatles | About</title>
 	</head>
 	<body>
@@ -19,10 +19,15 @@
 					<li><a href="./about.html">ABOUT</a></li>
 				</ul>
 			</nav>
-			<h1>THE BEATLES</h1>
+			<h1 class="band-name band-name-large">THE BEATLES</h1>
 		</header>
-		<section>
-			<h2>About</h2>
+		<section class="content-section container">
+			<h2 class="section-header">About</h2>
+			<img
+				class="about-band-image"
+				src="./images/Band Members.png"
+				alt="beatles band image"
+			/>
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipisicing
 				elit. Placeat aperiam ullam dolores delectus sit totam
@@ -35,10 +40,6 @@
 				adipisicing elit. Error architecto vel a vitae molestias
 				atque! Nostrum ducimus delectus consequuntur eum.
 			</p>
-			<img
-				src="./images/Band Members.png"
-				alt="beatles band image"
-			/>
 			<p>
 				Lorem ipsum dolor sit amet consectetur, adipisicing
 				elit. Iste modi libero magni porro! Aut ad ducimus
@@ -46,38 +47,46 @@
 				tempora hic odit accusantium quam Lorem ipsum dolor sit
 				amet, consectetur adipisicing elit. Illo hic unde
 				veritatis nostrum nemo soluta vero tempora rerum, minus
-				officiis.
+				officiis. Lorem ipsum dolor sit amet consectetur
+				adipisicing elit. Porro sapiente, veniam tempora quia
+				incidunt quisquam voluptates, aliquam, cupiditate
+				eligendi recusandae fugiat modi suscipit necessitatibus
+				qui architecto. Ut illo molestias aliquam.
 			</p>
 		</section>
-		<footer>
-			<h3>The Beatles</h3>
-			<ul>
-				<li>
-					<a href="https://www.youtube.com/" target="_blank"
-						><img
-							src="./images/YouTube Logo.png"
-							alt="Youtube Logo"
-					/></a>
-				</li>
-				<li>
-					<a
-						href="https://www.spotify.com/my-en/"
-						target="_blank"
-						><img
-							src="./images/Spotify Logo.png"
-							alt="Spotify Logo"
-					/></a>
-				</li>
-				<li>
-					<a
-						href="https://www.facebook.com/"
-						target="_blank"
-						><img
-							src="./images/Facebook Logo.png"
-							alt="Facebook Logo"
-					/></a>
-				</li>
-			</ul>
+		<footer class="main-footer">
+			<div class="container main-footer-container">
+				<h3 class="band-name">The Beatles</h3>
+				<ul class="nav footer-nav">
+					<li>
+						<a
+							href="https://www.youtube.com/"
+							target="_blank"
+							><img
+								src="./images/YouTube Logo.png"
+								alt="Youtube Logo"
+						/></a>
+					</li>
+					<li>
+						<a
+							href="https://www.spotify.com/my-en/"
+							target="_blank"
+							><img
+								src="./images/Spotify Logo.png"
+								alt="Spotify Logo"
+						/></a>
+					</li>
+					<li>
+						<a
+							href="https://www.facebook.com/"
+							target="_blank"
+							><img
+								src="./images/Facebook Logo.png"
+								alt="Facebook Logo"
+						/></a>
+					</li>
+				</ul>
+			</div>
 		</footer>
 	</body>
 </html>
